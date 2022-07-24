@@ -1,0 +1,39 @@
+
+	****************************************************  PANOVISTA  ****************************************************
+	*********************************************************************************************************************
+
+
+	Autor: Iván Agudo Díaz
+	Versión: 1.31 Beta
+	Fecha: 16/08/2015
+
+
+
+	****  ¿QUE ES?  ****
+
+		Panovista es un plug-in que hace uso de Jquery y Jquery-Ui para crear un scroll
+	horizontal personalizable en tus imagenes panoramicas.
+
+
+	****  ¿QUE REQUERIMIENTOS TIENE?  ****
+
+		Para usarlo, es necesario enlazar tanto Jquery como Jquery-Ui en el documento en el que se pretende implementar,
+	podemos descargarlo desde la pagina web de Jquery, o incluir un link a un servidor que nos proporcione el acceso a el.
+
+
+	****  ¿COMO IMPLEMENTARLO?  ****
+
+		Su implementación es realmente simple, solo tenemos que cumplir con tres normas para que todo funcione:
+
+		1ª.- Las imagenes han de estas en un contenedor <div>.
+		2ª.- Dicho contenedor, además de las clases que le tengamos asignadas, debe de tener la clase "contenedor-pano-vista".
+		3ª.- La etiqueta de la imagen panorámica, ha de tener la clase "pano-vista-img".
+
+
+		Ej.- 	<div class="contenedor-pano-vista" >
+				<img class="pano-vista-img" src=" ruta a la imagen / nombre de la imamgen . extension de la imagen " />
+			</div>
+
+	****  ¿QUE NOVEDADES HAY?  ****
+
+		Se ha implementado la posibilidad de controlar el scroll horizontal mediante la rueda del ratón.

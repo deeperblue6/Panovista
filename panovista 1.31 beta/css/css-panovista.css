@@ -1,0 +1,206 @@
+.contenedor-pano-vista{
+	width:840px;
+	height:320px;
+	margin:0px auto;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	padding:0;
+	position:relative;
+	background-color:;
+}
+.pano-vista-img{
+	height:320px;
+	margin:0px auto;
+	padding:0px;
+	left:0px;
+	position:absolute;
+}
+.fondo-deslizador{
+	width:;
+	height:10px;
+	position:absolute;
+}
+.desp-track{
+	width:;
+	height:10px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	background-color:rgba(255,255,255,0.5);
+}
+.desp-track-mover{
+	width:;
+	height:10px;
+	top:0px;
+	left:0px;
+	position:absolute;
+	background-color:transparent;
+}
+.desp-track-mover-diseño{
+	width:100%;
+	height:4px;
+	box-shadow:0px 0px 6px rgba(0,0,0,1);
+	top:3px;
+	left:0px;
+	position:absolute;
+	background-color:rgba(0,0,0,1);
+	border-radius:3px;
+}/*
+.container{
+  position:absolute;
+  top:200px;
+  left:600px;
+  perspective: 500px;
+  width: 150px;
+  height: 150px;
+  background-color:red;
+  border: ;
+  transform-origin: top left;
+  transition-property:transform;
+  transition-duration:10s;
+  transition-delay:13s;
+}
+.marco-n{
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: 50% 50%;
+  transition-property:transform;
+  transition-duration:2s;
+  transition-delay:13s;
+  box-shadow:0px 0px 1px black;
+}
+.marco-s{
+  transform-style: preserve-3d;
+	transform: rotate(0deg);
+	background-color:rgba(0,0,0,1);
+}
+.marco-e{
+  transform-style: preserve-3d;
+	transform: rotate(0deg);
+	background-color:rgba(0,0,0,1);
+}
+.marco-o{
+  transform-style: preserve-3d;
+	transform: rotate(0deg);
+	background-color:rgba(0,0,0,1);
+}
+.pano-vista-img:hover .marco-n{
+  transform: rotateY(-90deg);
+  */
+  
+}.container {
+  position:absolute;
+  top:200px;
+  left:200px;
+  perspective: 500px;
+  background-color:red;
+  transform-origin: top left;
+  transition-property:transform;
+  transition-duration:;
+  transition-delay:;
+}
+
+
+.tras {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: 50% 50%;
+  transition-property:;
+  transition-duration:;
+  transition-delay:;
+  box-shadow:0px 0px 1px black;
+}
+.dere {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: top left;
+  transition-property:;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateY(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.infe {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: bottom right;
+  transition-property:;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateY(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.izqu {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: top left;
+  transition-property:;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateX(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.supe {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: bottom left;
+  transition-property:;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateX(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.tapa {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: top right;
+  transition-property:transform;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateY(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.tapa {
+  transform-style: preserve-3d;
+  width: 150px;
+  height: 150px;
+  background-color:rgba(0, 0, 0, .3);
+  transform-origin: top right;
+  transition-property:transform;
+  transition-duration:;
+  transition-delay:;
+  transform: rotateY(0deg);
+  box-shadow:0px 0px 1px black;
+}
+.container:hover .dere{
+  transform: rotateY(-90deg);
+}
+.container:hover .infe{
+  transform: rotateX(90deg);
+}
+.container:hover .izqu{
+  transform: rotateX(90deg);
+}
+.container:hover .supe{
+  transform: rotateX(90deg);
+}
+.container:hover .tapa{
+  transform: rotateY(-270deg);
+}
+.container:hover .tras{
+  transform: rotateY(360deg);
+}
